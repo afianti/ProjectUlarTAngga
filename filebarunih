@@ -2,4 +2,5 @@
 int main()
 {
 printf("File baru nih :D");
+printf("ngedit nih");
 }
