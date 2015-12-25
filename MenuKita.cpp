@@ -3,11 +3,6 @@
 #include <math.h>
 #include <conio.h>
 
-void setcolor (unsigned short color)
-{
-    HANDLE hCon = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hCon,color);
-}
 
 COORD coord={0,0};
 void gotoxy(int x,int y)
